@@ -1,0 +1,1 @@
+## Lading page for a company part of codecademy exercises. 
