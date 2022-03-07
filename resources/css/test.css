@@ -1,0 +1,142 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  scrollbar-width: none;
+  /* border: 1px solid red; */
+}
+body {
+  border: 1px solid red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgb(12, 14, 14), rgb(23, 20, 30), rgb(32, 24, 45), rgb(40, 27, 61), rgb(48, 31, 78));
+}
+header {
+  max-width: 100%;
+}
+.navbar {
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  height: 75px;
+}
+.navbar .logo {
+  left: 20px;
+  text-align: center;
+  position: relative;
+  font-size: 1.75rem;
+  line-height: 140%;
+  width: 8.25rem;
+}
+.menu {
+  width: 25rem;
+}
+.menu ul {
+  align-items: center;
+  place-content: center;
+  list-style: none;
+  display: flex;
+}
+.navbar li {
+  position: static;
+  letter-spacing: -0.031rem;
+  text-align: center;
+}
+.navbar .login {
+  background-color: #6c63ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.875rem;
+  text-align: center;
+  width: 9.8125rem;
+  border-radius: 0.5rem;
+}
+/** ------------------------------------------------ **/
+
+.hero {
+  max-width: 100%;
+  height: 37.5rem;
+}
+
+#hero-slogan {
+  height: 37.5rem;
+  place-content: space-evenly;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.service {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  border-radius: 0.5rem;
+  margin-top: 2.5rem;
+  background-color: #595696;
+  width: 204px;
+  height: 58px;
+}
+.slogan h1 {
+  margin: 0;
+  font-size: 70px;
+}
+.slogan {
+  padding-left: 40px;
+  text-align: left;
+}
+.slogan p {
+  margin: 0;
+  width: 60%;
+  line-height: 1.875rem;
+  text-align: left;
+}
+.working {
+  width: 30%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-image: url("/resources/imgs/working.svg");
+}
+/** -------------------------------------------------------------**/
+
+/* #service-title {
+  margin-bottom: 50px;
+  place-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  height: 480px;
+  width: 100%;
+  display: flex;
+} */
+
+#service-title {
+  max-width: 100%;
+}
+
+#service-container {
+  color: white;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+
+.programmer {
+  width: 22vw;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-image: url("/resources/imgs/developer.svg");
+}
