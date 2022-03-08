@@ -572,8 +572,6 @@ footer {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 49.375rem) and (min-width: 690px) {
-  .hero {
-  }
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
@@ -629,8 +627,6 @@ footer {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 990px) and (min-width: 768px) {
-  .hero {
-  }
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
@@ -690,8 +686,6 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1440px) and (min-width: 992px) {
-  .hero {
-  }
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
