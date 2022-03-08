@@ -146,7 +146,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1920wave.SVG");
+  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1920wave.svg");
   height: 55rem;
   place-content: space-evenly;
   align-items: center;
@@ -200,7 +200,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px;
-  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/programming.SVG");
+  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/programming.svg");
 }
 /** --------------------------------------------------------------**/
 /**               SERVICES SECTION STARTS HERE                   **/
@@ -226,7 +226,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px;
-  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/developer.SVG");
+  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/developer.svg");
 }
 #service-container h1 {
   text-shadow: 0 0 15px rgb(192 219 255 / 75%), 0 0 16px rgb(65 120 255 / 10%) !important;
@@ -328,7 +328,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
-  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/review-code.SVG");
+  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/review-code.svg");
 }
 /** --------------------------------------------------------------**/
 /**              CONTACT SECTION STARTS HERE                     **/
@@ -338,7 +338,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/bottom-divider.SVG");
+  background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/bottom-divider.svg");
   padding-bottom: 150px;
 }
 .contact {
@@ -454,7 +454,7 @@ footer {
   #hero-slogan {
     height: 45rem;
     flex-direction: column;
-    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/690wave.SVG");
+    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/690wave.svg");
   }
   .slogan {
     text-align: center;
@@ -516,7 +516,7 @@ footer {
   #hero-slogan {
     height: 45rem;
     flex-direction: column;
-    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/690wave.SVG");
+    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/690wave.svg");
   }
   .slogan {
     text-align: center;
@@ -575,7 +575,7 @@ footer {
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
-    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.SVG");
+    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.svg");
   }
   .slogan {
     text-align: center;
@@ -630,7 +630,7 @@ footer {
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
-    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.SVG");
+    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.svg");
   }
   .slogan {
     text-align: center;
@@ -689,7 +689,7 @@ footer {
   #hero-slogan {
     flex-direction: column;
     height: 55rem;
-    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.SVG");
+    background-image: url("https://aerglonus.github.io/Company-landing/resources/imgs/1300wave.svg");
   }
   .slogan {
     text-align: center;
