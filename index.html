@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./resources/css/test.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dave NEFTS</title>
   </head>
@@ -13,10 +13,10 @@
         <div class="logo">LONUS</div>
         <div class="menu">
           <ul>
-            <li id="item">Home</li>
-            <li id="item">Services</li>
-            <li id="item">Catalog</li>
-            <li>About Us</li>
+            <a ><li id="item"> Home</li></a>
+            <a><li id="item"> Services</li></a>
+            <a><li id="item"> Catalog</li></a>
+            <a><li id="item"> About Us</li></a>
           </ul>
         </div>
         <div class="login">
@@ -24,8 +24,12 @@
         </div>
       </nav>
     </header>
+    
     <main>
+      
+    </div>
       <section class="hero">
+        
         <div id="hero-slogan">
           <div class="slogan">
             <h1>BUILD YOUR AUDIENCE</h1>
@@ -34,7 +38,7 @@
               flex with your friends how much money you wasted on a worthless
               png
             </p>
-            <div class="service"><h4>Apply Now</h4></div>
+            <div class="btn-hero"><h4>Apply Now</h4></div>
           </div>
           <div class="working"></div>
         </div>
@@ -45,8 +49,12 @@
           <h1>OUR SERVICES</h1>
         </div>
       </section>
+      
+       
+        
+      </div>
       <!-- <section class="content"></section> -->
-      <!-- <section class="services">
+      <section class="services">
         <div id="service-1" class="service-info">
           <img src="/resources/imgs/clip-icon.svg" alt="" />
           <h2>Data servers</h2>
@@ -72,45 +80,54 @@
           </p>
         </div>
       </section>
-      <section class="catch">
-        <div>
-          <h1>LET US HANDLE EVERYTHING</h1>
-          <p>
-            You have a business to run. Stop worring about cross-server crashes,
-            designing new systems keeping your data secured. Let us do that for
-            you.
-          </p>
+
+      <section class="catch-container">
+        <div id="catch-wrapper">
+          <div class="catch-text">
+            <h1>LET US HANDLE EVERYTHING</h1>
+            <p>
+              You have a business to run. Stop worring about cross-server
+              crashes, designing new systems keeping your data secured. Let us
+              do that for you.
+            </p>
+          </div>
+          <div class="img-container">
+            <!-- <img
+              class="desktop-server"
+              src="/resources/imgs/review-code.svg"
+              alt=""
+            /> -->
+          </div>
         </div>
-        <img
-          class="desktop-server"
-          src="/resources/imgs/review-code.svg"
-          alt=""
-        />
-        <img class="mobile-server" src="/resources/imgs/servers.svg" alt="" />
+        <!-- <img class="mobile-server" src="/resources/imgs/servers.svg" alt="" /> -->
       </section>
 
-      <section class="contact">
-        <div class="contact-text">
-          <h1>Contact us for the service you want to use</h1>
+      <section class="contact-container">
+        <div class="contact">
+          <div class="contact-text">
+            <h1>Contact us for the service you want to use</h1>
+          </div>
+          <a href="https://google.com">
+            <div class="contact-btn box"><div>Contact us</div></div>
+          </a>
         </div>
-        <div class="contact-btn">Contact us</div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer>
+    <footer>
       <div class="footer-container">
-        <div class="logo-footer">LONUS</div>
+        <!-- <div class="logo-footer">LONUS</div> -->
         <div class="footer-menu">
           <ul>
-            <li id="">Support</li>
-            <li id="">Privacy Policy</li>
-            <li id="">Terms and Conditions</li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms and Conditions</a> </li>
           </ul>
         </div>
         <div class="copyright">
-          <h4>© 2022 LONUS. All Rights Reserverd</h4>
+            <h4>© 2022 LONUS. All Rights Reserverd</h4> 
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
